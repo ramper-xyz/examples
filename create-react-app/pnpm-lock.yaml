@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@ramper/ethereum': 0.0.3
-  '@ramper/terra': 0.0.6
+  '@ramper/ethereum': 0.0.6
+  '@ramper/terra': 0.0.9
   '@testing-library/jest-dom': ^5.16.4
   '@testing-library/react': ^13.3.0
   '@testing-library/user-event': ^13.5.0
@@ -14,8 +14,8 @@ specifiers:
   web-vitals: ^2.1.4
 
 dependencies:
-  '@ramper/ethereum': 0.0.3
-  '@ramper/terra': 0.0.6
+  '@ramper/ethereum': 0.0.6
+  '@ramper/terra': 0.0.9
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.3.0_ef5jwxihqo6n7gxfmzogljlgcm
   '@testing-library/user-event': 13.5.0
@@ -2250,8 +2250,8 @@ packages:
       postmate: 1.5.2
     dev: false
 
-  /@ramper/ethereum/0.0.3:
-    resolution: {integrity: sha512-KoZuRP3wgW/bvH3qij0c76ZAXN1tr9H7j0+vd654DVFQvlzcHa0JpHH8bdmjlEyy5OQ0n5R8svhoJf3/yq391A==}
+  /@ramper/ethereum/0.0.6:
+    resolution: {integrity: sha512-sUPMyQ6fMcmJF2PnI2pQySwKZHwGnEugbLbReEt8o0O0z6bXgf12shrbWurnyDI3HjKLYSvEtIFWspdATP0+Ug==}
     dependencies:
       '@ramper/constants': 0.0.5
       '@ramper/core': 0.0.3
@@ -2263,8 +2263,8 @@ packages:
     resolution: {integrity: sha512-nmjsh23Gy0jh9xNmoqzYEz2UoPRFzDh1yqYr1/32pK20TPH6xDxEyYiDynLD+/Vpff2ThjDGEyUI67RnvVsiRQ==}
     dev: false
 
-  /@ramper/terra/0.0.6:
-    resolution: {integrity: sha512-upqZ2XEBc+kZpkhgsJHK7Hfj3mEvTzVlyTzoQ4IRBOUFYStEUESySPAMKOBTeNBr5FhuwPqg7KQnJq1Gd7CFBQ==}
+  /@ramper/terra/0.0.9:
+    resolution: {integrity: sha512-TUeyG+JD68of/MIbcaZ6VPZhyvm5xd4kYGLQK+DLjFcX1tc7Lt6cOqMFbE0U+Ll4Nxi1YZQiFUb5gMWG0h/kWw==}
     dependencies:
       '@ramper/constants': 0.0.5
       '@ramper/core': 0.0.3

@@ -2,8 +2,10 @@ import { useState, useMemo } from "react";
 import {
   init,
   signIn,
+  signOut,
   getRamperSigner,
   WALLET_PROVIDER,
+  openWallet,
 } from "@ramper/ethereum";
 import { ethers } from "ethers";
 import { get } from "lodash";
@@ -103,8 +105,10 @@ const App = () => {
       <div>CRA Example</div>
       <button onClick={handleSignIn}>Sign in</button>
       <p>{JSON.stringify(user)}</p>
+      <button onClick={signOut}>Sign out</button>
       <button onClick={handleSendFromWallet}>Send from wallet</button>
       <p>{JSON.stringify(txResult)}</p>
+      <button onClick={openWallet}>OpenWallet</button>
     </div>
   );
 };
