@@ -10,7 +10,6 @@ export class AppComponent {
   title = 'app'
 
   public ngOnInit() {
-    window.RAMPER_ENV = 'local'
 
     init({
       appName: 'Polygon Test App',
